@@ -1,0 +1,52 @@
+
+Hexaware SPGET 8-Week Preparation Plan (Python Focus, MERN App Format)
+
+WEEK 1: Python Mastery + Basic DSA
+- Learn Python syntax, data types, loops, functions, OOP
+- Practice 3 easy array/string problems daily (LeetCode)
+- Complete HackerRank 10 Days of Python
+- Mock Test: 1 coding Q, 5 Python MCQs
+- HR Task: Watch 1 HR interview prep video
+
+WEEK 2: Linked Lists + Time Complexity
+- Learn singly and doubly linked lists (with Python implementation)
+- Understand Big-O and recursion basics
+- Practice 2 LL problems/day + 1 recursion Q
+- Mock Test: Medium LL problem
+- HR Task: Draft “Tell me about yourself”
+
+WEEK 3: Stacks, Queues, Recursion + SQL Basics
+- Learn stack and queue implementation
+- Practice infix/postfix/prefix basics
+- Start basic SQL: SELECT, WHERE, CRUD
+- Solve 3 coding Qs (stack/queue/recursion)
+- Mock: 1 SQL test + 2 coding Qs
+
+WEEK 4: Trees + Advanced SQL
+- Learn binary tree traversal (DFS, BFS), BSTs
+- Practice tree problems (LeetCode)
+- Study inner/outer JOIN, subqueries in SQL
+- Mock: 1 tree coding Q + 1 SQL JOIN Q
+
+WEEK 5: Graphs + OS + System Design Basics
+- Graphs: BFS, DFS, adjacency list/matrix
+- OS: Process, thread, memory management
+- System Design: concepts of latency, availability, load balancer
+- Mock: Graph problem + 20 MCQs (OS + DB)
+
+WEEK 6: Dynamic Programming + System Design Core
+- DP problems: Knapsack, LIS, LCS, Memoization
+- System Design: Chat App, URL shortener
+- Mock: 1 DP problem + design question
+- Task: Record 2-3 min video explanation of a project
+
+WEEK 7: Mock Interviews + Revisions
+- Revise all key DSA topics (arrays, LL, trees, graphs, DP)
+- Review OS, DBMS, CN notes
+- Daily mock interviews (DSA + HR)
+- Resume check, GitHub polishing
+
+WEEK 8: Final Review / Flex Week
+- Only revise and relax
+- Mock test every alternate day
+- Don’t learn new things unless major weak spots
