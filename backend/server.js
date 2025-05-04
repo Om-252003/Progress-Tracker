@@ -30,6 +30,10 @@ app.use(express.json());
 app.use('/api/tasks', taskRoutes);
 app.use('/api/weeks', weekRoutes);
 app.use('/api/notes', noteRoutes);
+// Add test environment route
+const testEnvRoutes = require('./routes/testEnv');
+app.use('/api/test', testEnvRoutes);
+
 app.use('/api/seed', seedRoutes);
 
 // MongoDB connection
