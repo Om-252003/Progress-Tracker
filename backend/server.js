@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const taskRoutes = require('./routes/tasks');
 const weekRoutes = require('./routes/weeks');
 const noteRoutes = require('./routes/notes');
+const seedRoutes = require('./routes/seed');
 
 require('dotenv').config();
 
@@ -21,6 +22,7 @@ app.use(express.json());
 app.use('/api/tasks', taskRoutes);
 app.use('/api/weeks', weekRoutes);
 app.use('/api/notes', noteRoutes);
+app.use('/api/seed', seedRoutes);
 
 // MongoDB connection
 mongoose.connect(process.env.MONGO_URI, {
