@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 const corsOptions = {
   origin: function (origin, callback) {
     const allowedOrigin = process.env.FRONTEND_URL ? process.env.FRONTEND_URL.replace(/\/$/, '') : '*';
-    if (!origin || origin.replace(/\/$/, '') === allowedOrigin) {
+    if (!origin || origin.replace(/\/$/, '') === allowedOrigin || allowedOrigin === '*') {
       callback(null, true);
     } else {
       callback(new Error('Not allowed by CORS'));
