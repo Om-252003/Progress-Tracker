@@ -8,6 +8,8 @@ const seedRoutes = require('./routes/seed');
 
 require('dotenv').config();
 
+console.log('MONGO_URL:', process.env.MONGO_URL);
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
