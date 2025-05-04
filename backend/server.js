@@ -31,7 +31,7 @@ app.use('/api/notes', noteRoutes);
 app.use('/api/seed', seedRoutes);
 
 // MongoDB connection
-mongoose.connect(process.env.MONGO_URI, {
+mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
