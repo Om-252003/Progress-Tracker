@@ -8,6 +8,7 @@ router.get('/', async (req, res) => {
     const weeks = await Week.find().sort({ number: 1 });
     res.json(weeks);
   } catch (err) {
+    console.error('Error in GET /api/weeks:', err);
     res.status(500).json({ message: err.message });
   }
 });
@@ -19,6 +20,7 @@ router.get('/:number', async (req, res) => {
     if (!week) return res.status(404).json({ message: 'Week not found' });
     res.json(week);
   } catch (err) {
+    console.error('Error in GET /api/weeks/:number:', err);
     res.status(500).json({ message: err.message });
   }
 });
@@ -37,6 +39,7 @@ router.post('/', async (req, res) => {
     const savedWeek = await week.save();
     res.status(201).json(savedWeek);
   } catch (err) {
+    console.error('Error in POST /api/weeks:', err);
     res.status(400).json({ message: err.message });
   }
 });
@@ -48,6 +51,7 @@ router.delete('/:number', async (req, res) => {
     if (!week) return res.status(404).json({ message: 'Week not found' });
     res.json({ message: 'Week deleted' });
   } catch (err) {
+    console.error('Error in DELETE /api/weeks/:number:', err);
     res.status(500).json({ message: err.message });
   }
 });
