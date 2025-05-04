@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate, useParams } from 'react-router-dom';
-import Dashboard from './components/Dashboard';
-import WeekView from './components/WeekView';
-import TaskView from './components/TaskView';
-import Notes from './components/Notes';
+import Dashboard from './components/Dashboard.jsx';
+import WeekView from './components/WeekView.jsx';
+import TaskView from './components/TaskView.jsx';
+import Notes from './components/Notes.jsx';
 
 const SunIcon = ({ className }) => (
   <svg
